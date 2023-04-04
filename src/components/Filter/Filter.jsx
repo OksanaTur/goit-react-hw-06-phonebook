@@ -14,6 +14,7 @@ const Filter = () => {
 
     return (
         <TitleFilter>
+            Find contact by name
             <InputFilter
                 type="text"
                 value={filter}

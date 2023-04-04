@@ -5,12 +5,14 @@ import { getFilter } from 'redux/filter/filter-selector';
 import { InputFilter, TitleFilter } from './Filter.styled';
 
 const Filter = () => {
-    const filter = useSelector(getFilter);
-    const dispatch = useDispatch();
+  const filter = useSelector(getFilter);
 
-    const handleFilter = ({ target }) => {
-        dispatch(setFilter(target.value));
-    };
+  const dispatch = useDispatch();
+  // console.log(filter);
+
+  const handleFilter = ({ target }) => {
+    dispatch(setFilter(target.value));
+  };
 
     return (
         <TitleFilter>

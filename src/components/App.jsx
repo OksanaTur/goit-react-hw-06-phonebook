@@ -2,7 +2,7 @@ import { useSelector } from 'react-redux';
 import { getFilteredContacts } from 'redux/contacts/contact-selectors';
 import { TextApp, WrapperApp } from './App.styled';
 import ContactForm from './ContactForm/ContactForm';
-import ContactsList from './ContactList/ContactList';
+import ContactsList from './ContactsList/ContactList';
 import Filter from './Filter/Filter';
 
 const App = () => {
